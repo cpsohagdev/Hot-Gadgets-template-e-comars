@@ -13,11 +13,6 @@ a {
     width: 150px;
 }
 
-.header_wraper .navbar-light {
-    background: #dadcdd;
-    padding: 10px;
-}
-
 .header_wraper .navbar .our_menu {
     margin-left: auto;
 }
@@ -54,7 +49,7 @@ a {
     margin-bottom: 25px;
 }
 
-.hero-wrapper .btn {
+.hero-wrapper .btn-primary {
     background: #000000;
     color: white;
     font-size: 20px;
@@ -62,8 +57,170 @@ a {
     text-transform: uppercase;
     font-weight: 600;
     transition: all .4s ease;
+    padding: 10px 30px;
+    border: none;
 }
 
-.hero-wrapper .btn:hover {
-    background: red;
+
+/* Smartphone section  ================== */
+
+.Smartphone_wrapper .main-header div h2 {
+    font-weight: 700;
+    color: #1F1F1F;
+}
+
+.Smartphone_wrapper .main-header div span {
+    font-weight: 700;
+    color: #FF9D00;
+}
+
+.Smartphone_wrapper {
+    margin-top: 50px;
+}
+
+.Smartphone_wrapper .main-header {
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.Smartphone_wrapper .card {
+    box-shadow: 8px 8px 25px 2px rgb(179, 178, 178), -8px -8px 25px 2px rgb(179, 178, 178);
+    padding: 20px 10px;
+}
+
+.Smartphone_wrapper .card img {
+    width: 250px;
+    margin: auto;
+}
+
+.Smartphone_wrapper .card .card-body .card-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1F1F1F;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.Smartphone_wrapper .card .card-body .card-text {
+    color: #707070;
+    font-weight: 400;
+}
+
+.Smartphone_wrapper .card .card-body .card-price {
+    font-size: 24px;
+    color: #1F1F1F;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.Smartphone_wrapper .card .card-body .btn-primary {
+    padding: 8px 40px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    border: none;
+    background: #000000;
+}
+
+.Smartphone_wrapper .card .card-body .btn-primary:hover {
+    background: #2CAFE9;
+}
+
+
+/* Laptop section start  ===================== */
+
+.laptop_wrapper {
+    margin-top: 100px;
+}
+
+
+/* flow phone section >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* start Categories section  ============================= */
+
+.start_catagori_ontent {
+    margin-top: 100px;
+}
+
+.Categories_wrapper {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Categories_wrapper .Categories_main_hader {
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+}
+
+.Categories_wrapper .Categories_main_hader::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(-45deg, #FF9C35, #FFD019);
+    left: 0;
+    bottom: -20px;
+    border-radius: 10px;
+}
+
+.Categories_wrapper .right-site-img img {
+    width: 100%;
+    filter: grayscale(90%);
+    transition: all .4s ease;
+}
+
+.Categories_wrapper .right-site-img img:hover {
+    filter: grayscale(0%);
+}
+
+.Categories_wrapper .two_img_grop>div img {
+    margin-bottom: 100px;
+    width: 130px;
+    transition: all .4s ease;
+}
+
+.Categories_wrapper .two_img_grop>div img:hover {
+    filter: contrast(20%);
+}
+
+.Categories_wrapper .two_img_grop>div:nth-child(2) img {
+    margin-bottom: 0px;
+}
+
+.Categories_wrapper .single_img img {
+    width: 130px;
+    transition: all .4s ease;
+}
+
+.Categories_wrapper .single_img img:hover {
+    filter: contrast(20%);
+}
+
+
+/* start footer section Or Copy_right section  */
+
+ul.copy_right {
+    list-style: none;
+    margin-top: 150px;
+}
+
+ul.copy_right li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+ul.copy_right li {
+    padding: 0 10px;
+    position: relative;
+}
+
+ul.copy_right li:after {
+    content: '';
+    position: absolute;
+    border-right: 1px solid black;
+    height: 15px;
+    top: 7px;
+    right: 0;
 }
