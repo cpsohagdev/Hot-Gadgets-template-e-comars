@@ -5,3 +5,65 @@ body {
 a {
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* start top header section  =================== */
+
+.header_wraper .navbar .navbar-brand img {
+    width: 150px;
+}
+
+.header_wraper .navbar-light {
+    background: #dadcdd;
+    padding: 10px;
+}
+
+.header_wraper .navbar .our_menu {
+    margin-left: auto;
+}
+
+.header_wraper .navbar .our_menu li {
+    padding: 5px 15px;
+}
+
+.header_wraper .navbar .our_menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #707070;
+    font-weight: 500;
+    transition: all .4s ease;
+}
+
+.header_wraper .navbar .our_menu li a:hover {
+    color: #FF9C35;
+}
+
+
+/* start hero section  ======================= */
+
+.hero-wrapper .hero_hading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.hero-wrapper .hero_text {
+    font-size: 18px;
+    color: #707070;
+    font-family: 400;
+    margin-bottom: 25px;
+}
+
+.hero-wrapper .btn {
+    background: #000000;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .4s ease;
+}
+
+.hero-wrapper .btn:hover {
+    background: red;
+}
